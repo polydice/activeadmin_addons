@@ -1,3 +1,4 @@
+# coding: utf-8
 # rubocop:disable Metrics/LineLength
 $:.push File.expand_path("../lib", __FILE__)
 
@@ -37,4 +38,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "capybara-selenium"
   s.add_development_dependency "database_cleaner"
+  s.add_development_dependency "active_material"
 end
